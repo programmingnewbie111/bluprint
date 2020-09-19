@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>567176577946-v3v1i7159lbluk3t8sh4385gvndr509f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.567176577946-v3v1i7159lbluk3t8sh4385gvndr509f</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCaBVPWASfaxhV8zPkEO7zqNdr2c2HCIM8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>567176577946</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.project.BluPrint</string>
+	<key>PROJECT_ID</key>
+	<string>bluprint-2fa53</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bluprint-2fa53.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:567176577946:ios:9463d0e2fe10bbf8427023</string>
+	<key>DATABASE_URL</key>
+	<string>https://bluprint-2fa53.firebaseio.com</string>
+</dict>
+</plist>

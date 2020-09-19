@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,111 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BluPrint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="LAe-nd-VVx">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mine" translatesAutoresizingMaskIntoConstraints="NO" id="Fd6-hV-CQj">
+                                <rect key="frame" x="140.66666666666666" y="358" width="132.99999999999997" height="180"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="LAe-nd-VVx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2W1-Y2-ZD6"/>
+                            <constraint firstItem="Fd6-hV-CQj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sy6-bL-70k"/>
+                            <constraint firstItem="LAe-nd-VVx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZVn-qk-k0H"/>
+                            <constraint firstItem="LAe-nd-VVx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hwV-WK-XiN"/>
+                            <constraint firstItem="Fd6-hV-CQj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pmd-5W-o39"/>
+                            <constraint firstAttribute="bottom" secondItem="LAe-nd-VVx" secondAttribute="bottom" id="rbl-IW-xZ1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="logoImg" destination="Fd6-hV-CQj" id="1xD-x9-u1t"/>
+                        <segue destination="G8v-MI-mio" kind="presentation" identifier="moveSign" modalPresentationStyle="overFullScreen" modalTransitionStyle="coverVertical" id="4wO-ON-CNE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-2184" y="-931"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="yVr-9a-QzC">
+            <objects>
+                <viewController id="G8v-MI-mio" customClass="LoginViewController" customModule="BluPrint" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xAI-zE-JII">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="efx-uQ-eD3">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mine" translatesAutoresizingMaskIntoConstraints="NO" id="ETL-9G-sHX">
+                                <rect key="frame" x="87" y="244" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="hY1-U5-5Og"/>
+                                    <constraint firstAttribute="width" constant="240" id="oN6-qG-1oQ"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9SC-6j-ZUg" customClass="GIDSignInButton">
+                                <rect key="frame" x="87" y="544" width="240" height="68"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="j1E-sq-dr4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="efx-uQ-eD3" firstAttribute="trailing" secondItem="cX6-pC-QZh" secondAttribute="trailing" id="1zt-Y9-oMy"/>
+                            <constraint firstItem="ETL-9G-sHX" firstAttribute="leading" secondItem="cX6-pC-QZh" secondAttribute="leading" constant="87" id="9u6-OQ-64x"/>
+                            <constraint firstItem="efx-uQ-eD3" firstAttribute="leading" secondItem="cX6-pC-QZh" secondAttribute="leading" id="DIt-8j-pCi"/>
+                            <constraint firstItem="efx-uQ-eD3" firstAttribute="top" secondItem="xAI-zE-JII" secondAttribute="top" id="DVx-3c-p2w"/>
+                            <constraint firstItem="cX6-pC-QZh" firstAttribute="trailing" secondItem="ETL-9G-sHX" secondAttribute="trailing" constant="87" id="ELb-fD-9FP"/>
+                            <constraint firstAttribute="bottom" secondItem="efx-uQ-eD3" secondAttribute="bottom" id="RLl-vm-hvV"/>
+                            <constraint firstItem="ETL-9G-sHX" firstAttribute="top" secondItem="cX6-pC-QZh" secondAttribute="top" constant="200" id="RfL-Tf-SVC"/>
+                            <constraint firstItem="efx-uQ-eD3" firstAttribute="trailing" secondItem="cX6-pC-QZh" secondAttribute="trailing" id="d1Z-8g-y7r"/>
+                            <constraint firstItem="cX6-pC-QZh" firstAttribute="bottom" secondItem="ETL-9G-sHX" secondAttribute="bottom" constant="490" id="ePX-B0-1E2"/>
+                            <constraint firstItem="9SC-6j-ZUg" firstAttribute="top" secondItem="ETL-9G-sHX" secondAttribute="bottom" constant="172" id="elu-iu-BI8"/>
+                            <constraint firstItem="9SC-6j-ZUg" firstAttribute="leading" secondItem="cX6-pC-QZh" secondAttribute="leading" constant="87" id="fMJ-ew-hie"/>
+                            <constraint firstItem="efx-uQ-eD3" firstAttribute="leading" secondItem="cX6-pC-QZh" secondAttribute="leading" id="m3e-JJ-Yrw"/>
+                            <constraint firstItem="efx-uQ-eD3" firstAttribute="top" secondItem="xAI-zE-JII" secondAttribute="top" id="p0l-OX-hPc"/>
+                            <constraint firstItem="cX6-pC-QZh" firstAttribute="trailing" secondItem="9SC-6j-ZUg" secondAttribute="trailing" constant="87" id="yjN-xw-xYa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cX6-pC-QZh"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Gb-ig-TRd"/>
+                    <connections>
+                        <outlet property="signInButton" destination="9SC-6j-ZUg" id="2ze-vk-1PE"/>
+                        <segue destination="AYJ-Ng-AlW" kind="presentation" identifier="moveMain" modalPresentationStyle="overFullScreen" modalTransitionStyle="coverVertical" id="Bgk-2l-7lu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yyU-Fw-RsW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1448" y="-931"/>
+        </scene>
+        <!--Main Pg View Controller-->
+        <scene sceneID="Ed6-OV-8lW">
+            <objects>
+                <viewController id="AYJ-Ng-AlW" customClass="MainPgViewController" customModule="BluPrint" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aOG-zk-FtI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="sdR-16-mob"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q8g-KE-XXP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-717.39130434782612" y="-931.47321428571422"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="back" width="360" height="640"/>
+        <image name="mine" width="132.66667175292969" height="179.33332824707031"/>
+    </resources>
 </document>

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		763CEA4D45D1790D95D5D83C /* Pods_BluPrint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790379241CAD1D2B52512B02 /* Pods_BluPrint.framework */; };
 		7A3FB8D925145ED600DFED26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FB8D825145ED600DFED26 /* AppDelegate.swift */; };
 		7A3FB8DB25145ED600DFED26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FB8DA25145ED600DFED26 /* SceneDelegate.swift */; };
 		7A3FB8DD25145ED600DFED26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FB8DC25145ED600DFED26 /* ViewController.swift */; };
@@ -15,6 +16,10 @@
 		7A3FB8E525145EDB00DFED26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3FB8E325145EDB00DFED26 /* LaunchScreen.storyboard */; };
 		7A3FB8F025145EDB00DFED26 /* BluPrintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FB8EF25145EDB00DFED26 /* BluPrintTests.swift */; };
 		7A3FB8FB25145EDB00DFED26 /* BluPrintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FB8FA25145EDB00DFED26 /* BluPrintUITests.swift */; };
+		7A3FB909251460EC00DFED26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A3FB908251460EC00DFED26 /* GoogleService-Info.plist */; };
+		7AA5343F2515C3D8006CFE67 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA5343E2515C3D8006CFE67 /* LoginViewController.swift */; };
+		7AA534412515CBB0006CFE67 /* MainPgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA534402515CBB0006CFE67 /* MainPgViewController.swift */; };
+		7AA53443251636F2006CFE67 /* ClassroomAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA53442251636F2006CFE67 /* ClassroomAPIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66D473F804040534D9AD20AE /* Pods-BluPrint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluPrint.debug.xcconfig"; path = "Target Support Files/Pods-BluPrint/Pods-BluPrint.debug.xcconfig"; sourceTree = "<group>"; };
+		790379241CAD1D2B52512B02 /* Pods_BluPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3FB8D525145ED600DFED26 /* BluPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3FB8D825145ED600DFED26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A3FB8DA25145ED600DFED26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A3FB8DC25145ED600DFED26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A3FB8DA25145ED600DFED26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = /Users/Nobel/Desktop/School/IPW/BluPrint/BluPrint/SceneDelegate.swift; sourceTree = "<absolute>"; };
+		7A3FB8DC25145ED600DFED26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		7A3FB8DF25145ED600DFED26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A3FB8E125145EDB00DFED26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3FB8E425145EDB00DFED26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		7A3FB8F625145EDB00DFED26 /* BluPrintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluPrintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3FB8FA25145EDB00DFED26 /* BluPrintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluPrintUITests.swift; sourceTree = "<group>"; };
 		7A3FB8FC25145EDB00DFED26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A3FB908251460EC00DFED26 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7AA5343E2515C3D8006CFE67 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7AA534402515CBB0006CFE67 /* MainPgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPgViewController.swift; sourceTree = "<group>"; };
+		7AA53442251636F2006CFE67 /* ClassroomAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomAPIManager.swift; sourceTree = "<group>"; };
+		C4E8E57BABF57A522CFB8ABE /* Pods-BluPrint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluPrint.release.xcconfig"; path = "Target Support Files/Pods-BluPrint/Pods-BluPrint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				763CEA4D45D1790D95D5D83C /* Pods_BluPrint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,8 @@
 				7A3FB8EE25145EDB00DFED26 /* BluPrintTests */,
 				7A3FB8F925145EDB00DFED26 /* BluPrintUITests */,
 				7A3FB8D625145ED600DFED26 /* Products */,
+				964AE440E4D827687AF5FD7D /* Pods */,
+				EEDD6BE9BD2E56FD61BB35F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +117,14 @@
 				7A3FB8D825145ED600DFED26 /* AppDelegate.swift */,
 				7A3FB8DA25145ED600DFED26 /* SceneDelegate.swift */,
 				7A3FB8DC25145ED600DFED26 /* ViewController.swift */,
+				7AA5343E2515C3D8006CFE67 /* LoginViewController.swift */,
+				7AA534402515CBB0006CFE67 /* MainPgViewController.swift */,
 				7A3FB8DE25145ED600DFED26 /* Main.storyboard */,
 				7A3FB8E125145EDB00DFED26 /* Assets.xcassets */,
 				7A3FB8E325145EDB00DFED26 /* LaunchScreen.storyboard */,
 				7A3FB8E625145EDB00DFED26 /* Info.plist */,
+				7A3FB908251460EC00DFED26 /* GoogleService-Info.plist */,
+				7AA53442251636F2006CFE67 /* ClassroomAPIManager.swift */,
 			);
 			path = BluPrint;
 			sourceTree = "<group>";
@@ -128,6 +147,23 @@
 			path = BluPrintUITests;
 			sourceTree = "<group>";
 		};
+		964AE440E4D827687AF5FD7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66D473F804040534D9AD20AE /* Pods-BluPrint.debug.xcconfig */,
+				C4E8E57BABF57A522CFB8ABE /* Pods-BluPrint.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EEDD6BE9BD2E56FD61BB35F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				790379241CAD1D2B52512B02 /* Pods_BluPrint.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A3FB8FF25145EDB00DFED26 /* Build configuration list for PBXNativeTarget "BluPrint" */;
 			buildPhases = (
+				99308EE69BCDC126E152E3C2 /* [CP] Check Pods Manifest.lock */,
 				7A3FB8D125145ED600DFED26 /* Sources */,
 				7A3FB8D225145ED600DFED26 /* Frameworks */,
 				7A3FB8D325145ED600DFED26 /* Resources */,
+				E1CF13A78F0CF8BFDA25316C /* [CP] Embed Pods Frameworks */,
+				7106128BC538BB7B71A9BF6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A3FB8E525145EDB00DFED26 /* LaunchScreen.storyboard in Resources */,
+				7A3FB909251460EC00DFED26 /* GoogleService-Info.plist in Resources */,
 				7A3FB8E225145EDB00DFED26 /* Assets.xcassets in Resources */,
 				7A3FB8E025145ED600DFED26 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +294,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7106128BC538BB7B71A9BF6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BluPrint/Pods-BluPrint-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BluPrint/Pods-BluPrint-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BluPrint/Pods-BluPrint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99308EE69BCDC126E152E3C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BluPrint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CF13A78F0CF8BFDA25316C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BluPrint/Pods-BluPrint-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BluPrint/Pods-BluPrint-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BluPrint/Pods-BluPrint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A3FB8D125145ED600DFED26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA5343F2515C3D8006CFE67 /* LoginViewController.swift in Sources */,
 				7A3FB8DD25145ED600DFED26 /* ViewController.swift in Sources */,
+				7AA53443251636F2006CFE67 /* ClassroomAPIManager.swift in Sources */,
 				7A3FB8D925145ED600DFED26 /* AppDelegate.swift in Sources */,
 				7A3FB8DB25145ED600DFED26 /* SceneDelegate.swift in Sources */,
+				7AA534412515CBB0006CFE67 /* MainPgViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +534,7 @@
 		};
 		7A3FB90025145EDB00DFED26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D473F804040534D9AD20AE /* Pods-BluPrint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +553,7 @@
 		};
 		7A3FB90125145EDB00DFED26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E8E57BABF57A522CFB8ABE /* Pods-BluPrint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
